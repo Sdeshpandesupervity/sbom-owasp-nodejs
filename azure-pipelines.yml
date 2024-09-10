@@ -23,14 +23,14 @@ steps:
     displayName: 'Install CycloneDX'
 
   # Generate SBOM using CycloneDX
-  - script: |
-      npx @cyclonedx/cyclonedx-npm --output-format JSON --output-file sbom.json
-    displayName: 'Generate SBOM using CycloneDX'
+#  - script: |
+#      npx @cyclonedx/cyclonedx-npm --output-format JSON --output-file sbom.json
+#    displayName: 'Generate SBOM using CycloneDX'
 
   # Print the generated SBOM for verification (optional)
-  - script: |
-      cat sbom.json
-    displayName: 'Print SBOM JSON'
+#  - script: |
+#      cat sbom.json
+#    displayName: 'Print SBOM JSON'
 
   # Run OWASP Dependency-Check using a script
   - script: |
