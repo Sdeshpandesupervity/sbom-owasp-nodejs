@@ -1,6 +1,5 @@
 {
-  "name": "sbom-owasp-nodejs
-",
+  "name": "sbom-owasp-nodejs",
   "version": "0.2.2",
   "description": "CLI for iOS incident response",
   "main": "index.js",
