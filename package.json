@@ -1,5 +1,6 @@
 {
-  "name": "sbom-owasp-nodejs",
+  "name": "sbom-owasp-nodejs
+",
   "version": "0.2.2",
   "description": "CLI for iOS incident response",
   "main": "index.js",
@@ -24,9 +25,9 @@
   "author": "Sumedh Deshpande <sdeshpande@supervity.ai>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Sdeshpandesupervity/sbom-owasp-nodejs.git/issues"
+    "url": "https://github.com/Sdeshpandesupervity/sbom-owasp-nodejs/issues"
   },
-  "homepage": "https://github.com/Sdeshpandesupervity/sbom-owasp-nodejs.git-triage#readme",
+  "homepage": "https://github.com/Sdeshpandesupervity/sbom-owasp-nodejs#readme",
   "dependencies": {
     "async": "^2.6.1",
     "commander": "^2.18.0",
@@ -40,8 +41,7 @@
     "xmldom": "^0.1.27"
   },
   "devDependencies": {
-    "semistandard": "^12.0.1",
-    "@cyclonedx/cyclonedx-npm": "^2.0.0" // Make sure to use the latest version available
+    "semistandard": "^12.0.1"
   },
   "semistandard": {
     "ignore": [
