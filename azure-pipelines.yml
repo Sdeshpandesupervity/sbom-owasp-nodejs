@@ -18,7 +18,7 @@ steps:
 
   # Install CycloneDX npm package
   - script: |
-      npm install --save-dev @cyclonedx/cyclonedx-npm
+      npm install -g @cyclonedx/bom
     displayName: 'Install CycloneDX'
 
   # Generate SBOM using CycloneDX
